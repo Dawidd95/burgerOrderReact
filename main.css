@@ -1,0 +1,109 @@
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: #E2D2BB;
+  font-weight: bold;
+  font-family: 'Quicksand'; }
+
+.app {
+  width: 60%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  box-shadow: 17px 17px 17px 0 rgba(0, 0, 0, 0.4); }
+
+.app__header {
+  width: 100%;
+  height: 60px;
+  background-color: #6F552F;
+  display: flex; }
+
+.header__price-list {
+  width: 110px;
+  height: 100%;
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header__price-list img {
+    width: 20px;
+    height: 20px; }
+
+.header__title {
+  width: 70%;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.app__hamburger {
+  width: 100%;
+  min-height: 400px;
+  height: 100%; }
+
+.app__menu {
+  width: 100%;
+  height: 100%;
+  background-color: #C4A373; }
+
+.menu__current-price {
+  width: 100%;
+  padding: 30px 0;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.menu__ingredient {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.ingredient__info {
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 18px; }
+
+.ingredient__buttons {
+  margin-right: 50px; }
+  .ingredient__buttons button {
+    width: 90px;
+    height: 36px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color: #B58C4F;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer; }
+    .ingredient__buttons button:hover {
+      transition: 0.3s;
+      border: 2px solid #6F552F; }
+
+.menu__send {
+  width: 300px;
+  height: 48px;
+  margin: 40px 0 40px 450px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: #A57F45;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  border-radius: 10px;
+  cursor: pointer; }
+  .menu__send:hover {
+    border: 4px solid #95723F; }
+
+/*# sourceMappingURL=main.css.map */
