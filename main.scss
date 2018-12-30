@@ -6,6 +6,15 @@
    font-family: 'Quicksand';
 }
 
+dialog {
+   width: 50%;
+   height: 300px;
+
+   background-color: red;
+   position: absolute;
+}
+
+
 .app {
    width: 60%;
    height: 100%;
@@ -29,6 +38,7 @@
    margin-left: 40px;
    font-size: 18px;
    color: white;
+   cursor: pointer;
    
    display: flex;
    justify-content: space-around;
@@ -52,7 +62,7 @@
 
 .app__hamburger {
    width: 100%;
-   min-height: 400px;
+   min-height: 200px;
    height: 100%;
 }
 
@@ -130,4 +140,15 @@
    &:hover {
       border: 4px solid #95723F;
    }
+}
+
+.modal {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.2);
+   position: absolute;
+}
+
+button:disabled {
+   background-color: silver;
 }
